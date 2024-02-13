@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Select_Role",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "HDPc5v0ZV0aXbeVKotF5PA",
+  "Reference": "4eX0r8XOZECviXgmjqJAwg/HDPc5v0ZV0aXbeVKotF5PA",
+  "ParentRef": "4eX0r8XOZECviXgmjqJAwg/S6dU56AX8EqMZqvoxBqiIw",
+  "Created": "2024-01-31T08:51:54.5518628Z",
+  "Updated": "2024-01-31T08:53:52.2666813Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

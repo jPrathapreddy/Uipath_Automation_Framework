@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Link_Profile",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "BLtBh9CEwEycAd3R8Q6r5Q",
+  "Reference": "4eX0r8XOZECviXgmjqJAwg/BLtBh9CEwEycAd3R8Q6r5Q",
+  "ParentRef": "4eX0r8XOZECviXgmjqJAwg/n6V5GhrUrEqX4Lopfkp_MA",
+  "Created": "2024-01-31T11:14:37.0125333Z",
+  "Updated": "2024-01-31T11:15:14.5054067Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

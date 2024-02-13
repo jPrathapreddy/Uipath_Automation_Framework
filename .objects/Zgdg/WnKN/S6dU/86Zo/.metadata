@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Select_UserRole",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "86Zo4j4Tc0mKQHKE9R5tlw",
+  "Reference": "4eX0r8XOZECviXgmjqJAwg/86Zo4j4Tc0mKQHKE9R5tlw",
+  "ParentRef": "4eX0r8XOZECviXgmjqJAwg/S6dU56AX8EqMZqvoxBqiIw",
+  "Created": "2024-01-30T14:05:52.3005013Z",
+  "Updated": "2024-01-31T05:23:06.2301415Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

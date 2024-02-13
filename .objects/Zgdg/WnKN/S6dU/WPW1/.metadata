@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Text_EmpName",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "WPW11c20l0anOAnSw7avyA",
+  "Reference": "4eX0r8XOZECviXgmjqJAwg/WPW11c20l0anOAnSw7avyA",
+  "ParentRef": "4eX0r8XOZECviXgmjqJAwg/S6dU56AX8EqMZqvoxBqiIw",
+  "Created": "2024-01-30T14:08:02.333889Z",
+  "Updated": "2024-01-30T14:08:27.6363673Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

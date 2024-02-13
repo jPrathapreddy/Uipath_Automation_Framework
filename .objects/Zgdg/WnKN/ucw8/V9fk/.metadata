@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Text_Username",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "V9fkuBN92E-0-TMlCXZsKA",
+  "Reference": "4eX0r8XOZECviXgmjqJAwg/V9fkuBN92E-0-TMlCXZsKA",
+  "ParentRef": "4eX0r8XOZECviXgmjqJAwg/ucw8cJSH2ku3b75EiaKJEQ",
+  "Created": "2024-01-31T10:05:03.6960344Z",
+  "Updated": "2024-01-31T10:05:33.8211616Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Text_ConfirmPassword",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "3vvl41K0bkuFYAF7AWeTfQ",
+  "Reference": "4eX0r8XOZECviXgmjqJAwg/3vvl41K0bkuFYAF7AWeTfQ",
+  "ParentRef": "4eX0r8XOZECviXgmjqJAwg/S6dU56AX8EqMZqvoxBqiIw",
+  "Created": "2024-01-30T14:12:01.8811485Z",
+  "Updated": "2024-01-30T14:12:37.9345511Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

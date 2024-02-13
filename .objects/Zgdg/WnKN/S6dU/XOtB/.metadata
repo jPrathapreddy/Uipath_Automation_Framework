@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Text_Password",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "XOtBW9hEG0mb3tv-DPQWFQ",
+  "Reference": "4eX0r8XOZECviXgmjqJAwg/XOtBW9hEG0mb3tv-DPQWFQ",
+  "ParentRef": "4eX0r8XOZECviXgmjqJAwg/S6dU56AX8EqMZqvoxBqiIw",
+  "Created": "2024-01-30T14:11:01.6464047Z",
+  "Updated": "2024-01-30T14:11:36.5004467Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

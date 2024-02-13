@@ -1,0 +1,371 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TC_02_Orange_HRM" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1164,7232" sap2010:WorkflowViewState.IdRef="TC_02_Orange_HRM_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:utat="clr-namespace:UiPath.Testing.Activities.TestData;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+      <x:String>UiPath.Testing.Enums</x:String>
+      <x:String>UiPath.Testing.Activities.TestData</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="TC_02_Orange_HRM" sap:VirtualizedContainerService.HintSize="1174,7167.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="Text_login" />
+      <Variable x:TypeArguments="x:String" Default="Admin" Name="UserRole" />
+      <Variable x:TypeArguments="x:String" Default="Orange  Test" Name="Str_EmpName" />
+      <Variable x:TypeArguments="x:String" Default="Enabled" Name="Str_Status" />
+      <Variable x:TypeArguments="x:String" Name="Str_UN" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="1112,6912.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Page_Login" sap:VirtualizedContainerService.HintSize="1050,6802" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="ba2ceee9-06ef-4cd9-9622-efae1e262ff6" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1016,6582.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_5">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Default="Admin" Name="Str_UserName" />
+                <Variable x:TypeArguments="x:String" Default="admin123" Name="Str_Password" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Textbox_Username'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="954,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="[Str_UserName]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" ContentHash="t24z45l6-0eCkb-xOB5vnw" CvElementArea="456, 773, 634, 72" CvType="InputBox" DesignTimeRectangle="460, 776, 628, 68" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl name='username' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl name='username' tag='INPUT' type='' class='oxd-input oxd-input--active' aaname='' /&gt;" Guid="959fa4e1-11af-4794-93cd-b9d04c815e18" InformativeScreenshot="72ef52a751ffd72a348d46693a9e89df.png" IsResponsive="True" Reference="4eX0r8XOZECviXgmjqJAwg/js8JriW_k0SX1dgBc-P72A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvTextArea="487, 744, 87, 18" CvTextArgument="Username" CvType="Text" DesignTimeRectangle="490, 742, 83, 24" ElementType="Text" FriendlyName="'Username'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='oxd-label' aaname='Username' check:innerText='Username' /&gt;" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Textbox_Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="954,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_2" Text="[Str_Password]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" ContentHash="PHeFFJIOt0-lCvCqeXPPtw" CvElementArea="456, 902, 633, 72" CvType="InputBox" DesignTimeRectangle="460, 905, 628, 68" DesignTimeScaleFactor="1.5" ElementType="InputBoxPassword" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' class='oxd-input oxd-input--active' aaname='' /&gt;" Guid="fbaa1d3b-2fe0-4b9a-945b-92ea1977896a" InformativeScreenshot="d4602b12a11da1f78bd197112f7f2cff.png" Reference="4eX0r8XOZECviXgmjqJAwg/fIplwMhUoE2uLObGYn98AQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector, CV" Version="V2" Visibility="Interactive" />
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button_Login'" sap:VirtualizedContainerService.HintSize="954,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" ContentHash="pZzNEJOmT0e4aCnmQVsqIg" CvElementArea="456, 768, 635, 74" CvTextArea="745, 793, 55, 24" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="460, 771, 628, 69" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'Login'" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button' aaname=' Login ' check:innerText='Login' /&gt;" Guid="4ec22838-295d-42d2-994e-09053400e1f7" InformativeScreenshot="3834b60c24445d129ad8de017730b4af.png" Reference="4eX0r8XOZECviXgmjqJAwg/CTEtPuI66kqOlX0TIG8LGw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector, CV" Version="V2" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NCheckState DisplayName="Check App State 'Popup_Alert'" sap:VirtualizedContainerService.HintSize="954,496.6666666666667" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="ba2ceee9-06ef-4cd9-9622-efae1e262ff6" Version="V3">
+                <uix:NCheckState.IfExists>
+                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,275.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Popup_Alert'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ba2ceee9-06ef-4cd9-9622-efae1e262ff6" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable Accuracy="0.98" ContentHash="tH187ME9Skm8pIjLtf6i0A" CvElementArea="1172, 490, 113, 74" CvTextArea="1213, 517, 31, 19" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="1181, 500, 96, 57" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'Popup_Alert'" FullSelectorArgument="&lt;ctrl name='Change your password' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Change your password' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' automationid='' check:fulltext='OK' /&gt;" Guid="09fc2569-9828-421f-940a-92ea39d489b8" ImageBase64="" InformativeScreenshot="2901f7f5c0af8e7e3e40bc481eb8d4b6.png" Reference="4eX0r8XOZECviXgmjqJAwg/wz6h7H_Dxk-2sftco1NYpw" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='OrangeHRM - Google Chrome' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset X="-2" Y="-7" />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                  </Sequence>
+                </uix:NCheckState.IfExists>
+                <uix:NCheckState.IfNotExists>
+                  <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,107.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </uix:NCheckState.IfNotExists>
+                <uix:NCheckState.Target>
+                  <uix:TargetAnchorable Accuracy="0.98" ContentHash="tH187ME9Skm8pIjLtf6i0A" CvElementArea="1172, 490, 113, 74" CvTextArea="1213, 517, 31, 19" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="1181, 500, 96, 57" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'Popup_Alert'" FullSelectorArgument="&lt;ctrl name='Change your password' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Change your password' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' automationid='' check:fulltext='OK' /&gt;" Guid="09fc2569-9828-421f-940a-92ea39d489b8" ImageBase64="" InformativeScreenshot="2901f7f5c0af8e7e3e40bc481eb8d4b6.png" Reference="4eX0r8XOZECviXgmjqJAwg/wz6h7H_Dxk-2sftco1NYpw" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='OrangeHRM - Google Chrome' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.PointOffset>
+                      <uix:PointOffset X="-2" Y="-7" />
+                    </uix:TargetAnchorable.PointOffset>
+                  </uix:TargetAnchorable>
+                </uix:NCheckState.Target>
+              </uix:NCheckState>
+              <uix:NGetText DisplayName="Get Text 'Text_Dashboard'" sap:VirtualizedContainerService.HintSize="954,159.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_5" TextString="[Text_login]" Version="V3">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers" ContentHash="oDRTLZ1TmUeEcehYlvGInA" CvTextArea="100, 844, 103, 19" CvTextArgument="Dashboard" CvType="Text" DesignTimeRectangle="80, 841, 124, 28" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Dashboard'" FullSelectorArgument="&lt;webctrl aaname='Dashboard' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Dashboard' tag='SPAN' type='' class='oxd-text oxd-text--span oxd-main-menu-item--name' check:innerText='Dashboard' /&gt;" Guid="df5baa6d-34c8-4aac-be84-804fc79a26e5" InformativeScreenshot="9c9d63c4a0650d84229c67505955c798.png" Reference="4eX0r8XOZECviXgmjqJAwg/podmy1XpbU29wA3wqc0z9g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector, CV" Version="V2" Visibility="Interactive" />
+                </uix:NGetText.Target>
+              </uix:NGetText>
+              <uta:VerifyExpression AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression" Expression="[Text_login= &quot;Dashboard&quot;]" sap:VirtualizedContainerService.HintSize="954,92" sap2010:WorkflowViewState.IdRef="VerifyExpression_4" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False" />
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button_Admin'" sap:VirtualizedContainerService.HintSize="954,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index" ContentHash="eSvjxDhYXEy5DRZ_zpS6yQ" CvTextArea="99, 445, 64, 19" CvTextArgument="Admin" CvType="Text" DesignTimeRectangle="80, 442, 84, 28" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Admin'" FullSelectorArgument="&lt;webctrl tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='oxd-text oxd-text--span oxd-main-menu-item--name' aaname='Admin' check:innerText='Admin' /&gt;" Guid="6174c446-cf33-48cd-8708-b5024c16e272" InformativeScreenshot="29140cc7f652750e8a8f40bf870afce0.png" Reference="4eX0r8XOZECviXgmjqJAwg/8c7HvcuIgEOn1iwW8CHqXw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector, CV" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvElementArea="41, 434, 43, 44" CvType="Icon" DesignTimeRectangle="47, 440, 33, 33" ElementType="Icon" FriendlyName="'SVG'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;aside&amp;gt;nav&amp;gt;div&amp;gt;ul&amp;gt;li&amp;gt;a&amp;gt;svg' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='svg' class='oxd-icon oxd-main-menu-item--icon' aaname='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACUAAAAlCAYAAADFniADAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAP2SURBVFhH7ZhpT1QxFIb9sX4wwZhojAuoEUUwoqyBgDrIrgSiLGGLIiI7CMIgu+wwrDIEhNlI6rydnt7OnV7vHQT0g0/S6Jy2p297T09bLrB/kP+inGIpqrN/jJVUtbK0nEqWcDuHXbz2NK5yP72EvShvZHUt3cKjc7Sicl3vtAOdtDx4Vsp29w6Ed3tiRJkdYqWqatv5jOMpmYU17HJi9Ap7HQqLEgVn5OBRVgWbmFkSNSdja8fLCksbpM/k8Io5QYrqG5qQnQtK6oX1dOgaGJO+axo6hNUaKarodbPsuOrZFtbTIyWrnPtOTHUJizVSVEpmpNPDjDJhMZiaXWZjk/PilwE+9+a2V/yKMLfoYe1dX8UvA8QlTfrI5xdWPVJUwq1s3qHybZuwRFhc2ZDOIIJIz6uSdgLiydbaPiisEQZHpmXd/NK6sOqRoqiDOjDAClFdU1u/sBqirt7NY/sHR9z2bWrB0g/AV7j3pNh2F9qKAvWtPTyRYiUI/B/C1BXx+QI8kBGf2z/2hDV+HIk6b85FFPLVsHuWtXUO8xi1w1YU4gWfCbmrf3hSWI1Ei11lhc8fiEo1VHBKrG/tilax2IrC9qa6/Fd1wsrY9eQCaV9Z2xJWg1DomAc2tdEVq7izFXV45Jd1yMxEXlEtt+nyGsBOpX7YcZ19bjY6PsdclU3SjhULHR+LHgaOY4q2vYq6G83ceVzE/eHTm4FAGu9T94iwGpxJoCOw5aA9sYN6NnZk/cuKRmE1cCQKK4LEiDykgrYYwIwqCpncDO5WVI+NYMZWlHp0qCc8XQST0lwsGAwJq8HNlOe8XnfjaAknXPKpW0lbUeruU2eF44Xsul1UXvNB1sPn8uomj0v1DLx0I1Obtxx9PhwlGEQdfCOcZxDEHb2jwhINPqEqXFeQTHWcSaAT3xfWWGp2RZQQFDxEEKNWnKko4A9n9SH3DF8V5K7eLxNsxRObbFUciSqrfs/jCRc4Au3w+Zxcb+PFVtRnJdHhHUeox4z59qmy691n49OLPC7hG+fnUjjoA4GgaBGLFEUPTvMBCwc0ePPHAWFlLKOgWtp1BEMhll9cJ9uYCyZlFSpSFM4hNMa/ZrDTzEkSNwDkMN3xg+1vFmFVIM6MFIWbJTX80/felaRc6QuvGDzffh76eB3iEitE9SjmFZOi8LcDaoSH6EnBw8NqMBX1/EOZmVsVNYoooP4NAcdDvO8/JFfqD1924CpD7bHDiShRgBpRwX0Js8esdUVNgu4J4+Wj3r1+B57yaK/GcowogMHIuV3BwUu0hHcn2Z2+Zt6IRyp2P6EVBRCcSJh4OdNDVVcwARXcMnXXESvwrsTEVD+Wov4ejP0Crm0Mh1nhWRcAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button_Add'" sap:VirtualizedContainerService.HintSize="954,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers" ContentHash="GREKiaN1lkKNyOZdNtHgHA" CvElementArea="501, 821, 170, 52" CvTextArea="553, 835, 66, 19" CvTextArgument="+ Add" CvType="Button" DesignTimeRectangle="505, 824, 163, 46" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'Add'" FullSelectorArgument="&lt;webctrl aaname=' Add ' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Add ' tag='BUTTON' type='button' class='oxd-button oxd-button--medium oxd-button--secondary' check:innerText='Add' /&gt;" Guid="0ebd046a-1c15-4d6b-833d-0ea760515724" InformativeScreenshot="153f06f3f5e045a742cf05c63c7aee9d.png" Reference="4eX0r8XOZECviXgmjqJAwg/_3T2qFI0CUeOsvNtCCVSIw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector, CV" Version="V2" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NSelectItem DisplayName="Select Item 'Select_UserRole'" sap:VirtualizedContainerService.HintSize="954,159.33333333333334" sap2010:WorkflowViewState.IdRef="NSelectItem_3" Item="[UserRole]" ScopeIdentifier="ba2ceee9-06ef-4cd9-9622-efae1e262ff6" Version="V3">
+                <uix:NSelectItem.Target>
+                  <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser" ContentHash="cxq3oVdQo0-pkXNgpNhdRg" DesignTimeRectangle="1080, 640, 53, 53" DesignTimeScaleFactor="1.5" FriendlyName="'Select_UserRole'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;i' tag='I' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='I' class='oxd-icon bi-caret-down-fill oxd-select-text--arrow' aaname='' /&gt;" Guid="c69a02d7-a4c7-48ad-8f9a-ca8c7211d1e0" InformativeScreenshot="30db54e6c3214f8736ce862220663e09.png" Reference="4eX0r8XOZECviXgmjqJAwg/86Zo4j4Tc0mKQHKE9R5tlw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvTextArea="505, 601, 89, 16" CvTextArgument="User Role*" CvType="Text" DesignTimeRectangle="508, 599, 87, 24" ElementType="Text" FriendlyName="'Select_UserRole'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='oxd-label oxd-input-field-required' aaname='User Role' check:innerText='User Role' /&gt;" SearchSteps="Selector, FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NSelectItem.Target>
+              </uix:NSelectItem>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Text_EmpName'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="954,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_7" Text="[Str_EmpName]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser" ContentHash="ER-428cSlUiQK2OjMWsVAg" CvElementArea="1170, 550, 640, 74" CvType="InputBox" DesignTimeRectangle="1176, 558, 630, 59" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;input' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='INPUT' class='' aaname='' /&gt;" Guid="454cd00a-7a17-48e9-922f-c00e6a81e613" InformativeScreenshot="a624412281ee8cb75c49a09efcd54ae2.png" IsResponsive="True" Reference="4eX0r8XOZECviXgmjqJAwg/WPW11c20l0anOAnSw7avyA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector, CV" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvTextArea="1173, 523, 142, 21" CvTextArgument="Employee Name*" CvType="Text" DesignTimeRectangle="1175, 521, 140, 24" ElementType="Text" FriendlyName="'Employee Name'" FullSelectorArgument="&lt;webctrl aaname='Employee Name' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Employee Name' tag='LABEL' type='' class='oxd-label oxd-input-field-required' check:innerText='Employee Name' /&gt;" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Select_EmpName'" sap:VirtualizedContainerService.HintSize="954,158.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser" ContentHash="RvvwLST7JUSk3MVZ94fs2g" CvElementArea="1170, 704, 640, 71" CvType="InputBox" DesignTimeRectangle="1188, 728, 98, 24" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Orange Test'" FullSelectorArgument="&lt;webctrl aaname='Orange  Test' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Orange  Test' tag='SPAN' type='' class='' check:innerText='Orange Test' /&gt;" Guid="6e8a7a80-44a2-4a05-87e1-ded62fcae018" InformativeScreenshot="e18891190305d82f4197ae28b83912cd.png" Reference="4eX0r8XOZECviXgmjqJAwg/dIv6TSb-UEaqw5sowNnDew" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NSelectItem DisplayName="Select Item 'Select_Status'" sap:VirtualizedContainerService.HintSize="954,158.66666666666666" sap2010:WorkflowViewState.IdRef="NSelectItem_4" Item="[Str_Status]" ScopeIdentifier="ba2ceee9-06ef-4cd9-9622-efae1e262ff6" Version="V3">
+                <uix:NSelectItem.Target>
+                  <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser" ContentHash="bJCPqxkBzkeq--NS8FZh8g" CvTextArea="519, 648, 89, 16" CvTextArgument="-- Select --" CvType="Text" DesignTimeRectangle="508, 623, 632, 68" DesignTimeScaleFactor="1.5" FriendlyName="'Select_Status'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' parentid='app' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='oxd-select-text oxd-select-text--active oxd-select-text--error' parentid='app' tag='DIV' aaname='' check:innerText='-- Select --' /&gt;" Guid="f8b0591c-76ee-4159-b63a-bafdcf53a8b2" InformativeScreenshot="4a87716383b9e7d80f55801523845cf0.png" Reference="4eX0r8XOZECviXgmjqJAwg/8JMMIg0JUEuV6CX-Gz4ywQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+                </uix:NSelectItem.Target>
+              </uix:NSelectItem>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Text_Username'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="954,220" sap2010:WorkflowViewState.IdRef="NTypeInto_8" Text="[Str_UN]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser" ContentHash="Bd_ItK_4D02XCuQXfoJ2uw" CvElementArea="1170, 675, 639, 73" CvType="InputBox" DesignTimeRectangle="1175, 679, 632, 68" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;input' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='INPUT' class='oxd-input oxd-input--focus' aaname='' /&gt;" Guid="0e5e7a85-3a8e-4f2b-bb3b-29cc1ae25923" InformativeScreenshot="bb9310e6765a361d1dd05c55ac4e4b58.png" IsResponsive="True" Reference="4eX0r8XOZECviXgmjqJAwg/Tua1vZvCCkyc09QU5qXJ9w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector, CV" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvTextArea="1173, 648, 93, 18" CvTextArgument="Username*" CvType="Text" DesignTimeRectangle="1175, 646, 91, 24" ElementType="Text" FriendlyName="'Username'" FullSelectorArgument="&lt;webctrl aaname='Username' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Username' tag='LABEL' type='' class='oxd-label oxd-input-field-required' check:innerText='Username' /&gt;" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <utat:RandomString Case="Mixed" DisplayName="Random String" sap:VirtualizedContainerService.HintSize="954,200" sap2010:WorkflowViewState.IdRef="RandomString_2" Length="10" Output="[Str_UN]" />
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Text_Username'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="954,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_9" Text="[Str_UN]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser" ContentHash="Bd_ItK_4D02XCuQXfoJ2uw" CvElementArea="1170, 675, 639, 73" CvType="InputBox" DesignTimeRectangle="1175, 679, 632, 68" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;input' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='INPUT' class='oxd-input oxd-input--focus' aaname='' /&gt;" Guid="0e5e7a85-3a8e-4f2b-bb3b-29cc1ae25923" InformativeScreenshot="bb9310e6765a361d1dd05c55ac4e4b58.png" IsResponsive="True" Reference="4eX0r8XOZECviXgmjqJAwg/Tua1vZvCCkyc09QU5qXJ9w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector, CV" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvTextArea="1173, 648, 93, 18" CvTextArgument="Username*" CvType="Text" DesignTimeRectangle="1175, 646, 91, 24" ElementType="Text" FriendlyName="'Username'" FullSelectorArgument="&lt;webctrl aaname='Username' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Username' tag='LABEL' type='' class='oxd-label oxd-input-field-required' check:innerText='Username' /&gt;" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Text_Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="954,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_10" Text="[Str_Password]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser" ContentHash="eGufr3SShUe_6HbKzP4uTQ" CvElementArea="519, 816, 622, 73" CvType="InputBox" DesignTimeRectangle="523, 819, 617, 68" DesignTimeScaleFactor="1.5" ElementType="InputBoxPassword" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' class='oxd-input oxd-input--focus' aaname='' /&gt;" Guid="cd4dfae5-3b9d-4a73-abbc-f499ebe58026" InformativeScreenshot="452be369a0721b7865292d2ead573d79.png" Reference="4eX0r8XOZECviXgmjqJAwg/XOtBW9hEG0mb3tv-DPQWFQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvTextArea="520, 787, 91, 18" CvTextArgument="Password*" CvType="Text" DesignTimeRectangle="523, 786, 89, 24" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' type='' class='oxd-label oxd-input-field-required' check:innerText='Password' /&gt;" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Text_ConfirmPassword'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="954,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_11" Text="[Str_Password]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser" ContentHash="76Nd5suJLkW7-H14u_mebw" CvElementArea="1169, 816, 622, 73" CvType="InputBox" DesignTimeRectangle="1175, 819, 617, 68" DesignTimeScaleFactor="1.5" ElementType="InputBoxPassword" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl idx='2' tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl class='oxd-input oxd-input--active' tag='INPUT' type='password' aaname='' /&gt;" Guid="bc739a47-ad95-4529-9aa2-10e364ea8672" InformativeScreenshot="c71cc3ed4451b4262fcdecfc1b93905b.png" Reference="4eX0r8XOZECviXgmjqJAwg/3vvl41K0bkuFYAF7AWeTfQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector, CV" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvTextArea="1171, 787, 162, 18" CvTextArgument="Confirm Password*" CvType="Text" DesignTimeRectangle="1175, 786, 159, 24" ElementType="Text" FriendlyName="'Confirm Password'" FullSelectorArgument="&lt;webctrl aaname='Confirm Password' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Confirm Password' tag='LABEL' type='' class='oxd-label oxd-input-field-required' check:innerText='Confirm Password' /&gt;" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button_Save'" sap:VirtualizedContainerService.HintSize="954,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser" ContentHash="YjRpgc9yj0Sjtz11UGaUzQ" CvElementArea="1656, 910, 155, 52" CvTextArea="1707, 922, 51, 21" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="1660, 912, 150, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'Save'" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space' aaname=' Save ' check:innerText='Save' /&gt;" Guid="4b7ceac2-ac30-4bfa-b036-8083f2ed3198" InformativeScreenshot="8f6aafeb80aa1cf7ba4a56901f3810e9.png" Reference="4eX0r8XOZECviXgmjqJAwg/iRvt7ASPUEilbc7SDcmPLA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector, CV" Version="V2" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="954,92" sap2010:WorkflowViewState.IdRef="Delay_1" />
+              <uix:NTakeScreenshot DisplayName="Take Screenshot" FileName="screenshot.png" FileNameMode="DateTime" sap:VirtualizedContainerService.HintSize="954,249.33333333333334" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_2" Version="V3" />
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Text_Username'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="954,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_12" Text="[Str_UN]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers" ContentHash="4AzsGNllREK8gqyAo55qHA" CvElementArea="504, 634, 305, 73" CvType="InputBox" DesignTimeRectangle="508, 636, 298, 68" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;input' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='INPUT' class='oxd-input oxd-input--active' aaname='' /&gt;" Guid="3e58e075-2a77-476b-8516-81b7fed2b858" InformativeScreenshot="222215951774277db46a2b3dff4c917f.png" IsResponsive="True" Reference="4eX0r8XOZECviXgmjqJAwg/V9fkuBN92E-0-TMlCXZsKA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvTextArea="505, 606, 85, 16" CvTextArgument="Username" CvType="Text" DesignTimeRectangle="508, 603, 83, 24" ElementType="Text" FriendlyName="'Username'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='oxd-label' aaname='Username' check:innerText='Username' /&gt;" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NSelectItem DisplayName="Select Item 'Select_Role'" sap:VirtualizedContainerService.HintSize="954,159.33333333333334" sap2010:WorkflowViewState.IdRef="NSelectItem_5" Item="[UserRole]" Version="V3">
+                <uix:NSelectItem.Target>
+                  <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers" ContentHash="nPkLkNM06Uqqsac6kQNVtA" CvTextArea="871, 564, 70, 18" CvTextArgument="Select --" CvType="Text" DesignTimeRectangle="841, 541, 298, 68" DesignTimeScaleFactor="1.5" FriendlyName="'-- Select --'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='app' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='app' tag='DIV' class='oxd-select-text oxd-select-text--active' aaname='' check:innerText='-- Select --' /&gt;" Guid="8baeaef2-9708-497e-abc8-a9ded1c85f9a" InformativeScreenshot="b788836660c8b2d9ba901640e41567e7.png" Reference="4eX0r8XOZECviXgmjqJAwg/nGO4Fz0A7E2wDYCEnOSuNQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+                </uix:NSelectItem.Target>
+              </uix:NSelectItem>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button_Search'" sap:VirtualizedContainerService.HintSize="954,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers" ContentHash="JzW_YNUwBkGPJ0KMcgwi7A" CvElementArea="1644, 655, 167, 53" CvTextArea="1692, 669, 69, 21" CvTextArgument="Search" CvType="Button" DesignTimeRectangle="1648, 658, 161, 47" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'Search'" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space' aaname=' Search ' check:innerText='Search' /&gt;" Guid="d022a0f1-9da8-4025-9116-7bb40e1ef799" InformativeScreenshot="359f8fa98e4904f7b3d41508a4bb5758.png" Reference="4eX0r8XOZECviXgmjqJAwg/4AzHilqu9UWXIqugFa05nw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button_Delete'" sap:VirtualizedContainerService.HintSize="954,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_16" KeyModifiers="None" MouseButton="Left" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers" ContentHash="S34RaWaXZU-pkF7e6qfAiw" CvElementArea="1589, 806, 35, 38" CvType="Icon" DesignTimeRectangle="1594, 812, 27, 32" DesignTimeScaleFactor="1.5" FriendlyName="'I'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;i' tag='I' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='I' class='oxd-icon bi-trash' aaname='' /&gt;" Guid="37641610-6c77-4634-91ac-c56bc28e3efd" InformativeScreenshot="8b2a2992b593ac2ef3b5e8011e390c62.png" Reference="4eX0r8XOZECviXgmjqJAwg/WxskLnVPaE20OSQqj5aAZA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button_YesDelete'" sap:VirtualizedContainerService.HintSize="954,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_17" KeyModifiers="None" MouseButton="Left" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers" ContentHash="ShDNgs1iKkeW4GgzOEa9bg" DesignTimeRectangle="1004, 624, 21, 28" DesignTimeScaleFactor="1.5" FriendlyName="'I'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;i' tag='I' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='I' class='oxd-icon bi-trash oxd-button-icon' aaname='' /&gt;" Guid="938ba160-f788-45c9-935b-a8193bfe9a28" InformativeScreenshot="2092dbc6cbd57a470e872c318fab950a.png" Reference="4eX0r8XOZECviXgmjqJAwg/w-5zZX3NCE6iCOYxuX9Uzw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvTextArea="1027, 625, 108, 22" CvTextArgument="Yes, Delete" CvType="Text" DesignTimeRectangle="956, 614, 227, 46" ElementType="Button" FriendlyName="'Yes, Delete'" FullSelectorArgument="&lt;webctrl aaname=' Yes, Delete ' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Yes, Delete ' tag='BUTTON' type='button' class='oxd-button oxd-button--medium oxd-button--label-danger orangehrm-button-margin' check:innerText='Yes, Delete' /&gt;" SearchSteps="Selector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NTakeScreenshot DisplayName="Take Screenshot" FileName="screenshot.png" FileNameMode="None" sap:VirtualizedContainerService.HintSize="954,249.33333333333334" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_3" Version="V3" />
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Link_Profile'" sap:VirtualizedContainerService.HintSize="954,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_18" KeyModifiers="None" MouseButton="Left" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers" ContentHash="c-yI3oAR1UmdN5WRcO3D6g" CvTextArea="1693, 325, 108, 21" CvTextArgument="Paul Collings" CvType="Text" DesignTimeRectangle="1605, 294, 242, 82" DesignTimeScaleFactor="1.5" FriendlyName="'Paul Collings'" FullSelectorArgument="&lt;webctrl class='oxd-userdropdown-tab' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='oxd-userdropdown-tab' tag='SPAN' type='' aaname='' check:innerText='Paul Collings' /&gt;" Guid="fb2cac9c-a573-460b-874b-2adae8dfd892" InformativeScreenshot="b8747037743b42a15faae60dd7b556a9.png" Reference="4eX0r8XOZECviXgmjqJAwg/BLtBh9CEwEycAd3R8Q6r5Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button_Logout'" sap:VirtualizedContainerService.HintSize="954,158.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_19" KeyModifiers="None" MouseButton="Left" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers" ContentHash="smtc0wx3Sk25hqGez0r4ZA" CvTextArea="1627, 531, 58, 21" CvTextArgument="Logout" CvType="Text" DesignTimeRectangle="1606, 520, 240, 42" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Logout'" FullSelectorArgument="&lt;webctrl aaname='Logout' aria-role='menuitem' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Logout' aria-role='menuitem' tag='A' type='' class='oxd-userdropdown-link' check:innerText='Logout' /&gt;" Guid="9e29c3b4-e07c-4f51-8628-a3eca976d108" InformativeScreenshot="48be6b6234ba337739e5e2e77357ca98.png" Reference="4eX0r8XOZECviXgmjqJAwg/i3RHCsmFuU6i6sUFflWgnA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CvTextArea="1693, 325, 108, 21" CvTextArgument="Paul Collings" CvType="Text" DesignTimeRectangle="1605, 294, 242, 82" FriendlyName="'Paul Collings'" FullSelectorArgument="&lt;webctrl class='oxd-userdropdown-tab' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='oxd-userdropdown-tab' tag='SPAN' type='' aaname='' check:innerText='Paul Collings' /&gt;" SearchSteps="Selector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="qxMq_2m1PEuuGgFvq8xwQQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGAUExURf///v759eh8Hv77+Prl0/fRsORpAOd5GP/+/f748/3+/fG1f/K0f+yZUOqMPORlAPjZved6GU2xdeZwCQCKL/738TCmYud1Ev328P3y6azbwPCrbvjVtu6fW/779/72777jzd6qbf327yCcUv307edzEOmEK+mAJP7fyZHQrvHu4cTl0v3z6/K2gvO6iPzw5v/8+fz+/fGudPzl0vK5hvzs3uZxC++kY+d5Gfzt4eRnAORoAE6ydxCXR/CoafjWuf77+eRmAPCpbO6iYfzv5Mnm1SeeVN/y6Od+IWS6hO6dViWkX++lY53YuyedU/CmaO6fWv748uNoAPv9+/rjz++jX/bNqfTEmff8+fzu4fXHoPnexgCILvrizeZyDTSmY/jYvOZwCla0fPCqbffTs7Pexe2aUf///////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOlg/doAAABpdFJOU///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AKA3ZhoAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAC3SURBVChTY8iAg/QMQyAJFwiW8hRS1kYSSBKJt/UD0jABVzdNsRgFIAMqkJ6RauPtmw4TkA/JSNdS9AExwQL2TGmhGaIZxl7+zGABlkQZIBGWkcERIA0W4HUGGgEGLhaRQAFG8SgINyNDjj0FpILJHKIASMYlgAT02FghetKTzcBmqHgIh2ekp2cE8gQZpYMEMmLZrdScdO3U+fmAHJBAhqWsqrUjmyA3SCdYICNDXyAjGsTNyAAAT09UkZxCysoAAAAASUVORK5CYII=" InformativeScreenshot="ac7847ae03260d2596197c07667bc0ff.jpg" Reference="4eX0r8XOZECviXgmjqJAwg/n6V5GhrUrEqX4Lopfkp_MA" Selector="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" Title="OrangeHRM" Url="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="1112,104" sap2010:WorkflowViewState.IdRef="Sequence_4">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </Sequence>
+  </Sequence>
+</Activity>

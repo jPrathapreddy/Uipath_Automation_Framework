@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Text_Dashboard",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "podmy1XpbU29wA3wqc0z9g",
+  "Reference": "4eX0r8XOZECviXgmjqJAwg/podmy1XpbU29wA3wqc0z9g",
+  "ParentRef": "4eX0r8XOZECviXgmjqJAwg/n6V5GhrUrEqX4Lopfkp_MA",
+  "Created": "2024-01-30T13:58:31.4821655Z",
+  "Updated": "2024-01-30T14:00:25.8176784Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

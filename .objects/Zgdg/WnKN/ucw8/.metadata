@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Delete_User",
+  "Type": "Screen",
+  "Id": "ucw8cJSH2ku3b75EiaKJEQ",
+  "Reference": "4eX0r8XOZECviXgmjqJAwg/ucw8cJSH2ku3b75EiaKJEQ",
+  "ParentRef": "4eX0r8XOZECviXgmjqJAwg/WnKNqllKrU2ELq2NIQbi8g",
+  "Created": "2024-01-31T09:55:27.6304958Z",
+  "Updated": "2024-01-31T09:55:41.0937201Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

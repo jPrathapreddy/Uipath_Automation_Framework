@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="oDRTLZ1TmUeEcehYlvGInA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers" CvTextArea="100, 844, 103, 19" CvTextArgument="Dashboard" CvType="Text" DesignTimeRectangle="80, 841, 124, 28" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Dashboard'" FullSelectorArgument="&lt;webctrl aaname='Dashboard' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Dashboard' tag='SPAN' type='' class='oxd-text oxd-text--span oxd-main-menu-item--name' check:innerText='Dashboard' /&gt;" Guid="df5baa6d-34c8-4aac-be84-804fc79a26e5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="Selector, CV" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9c9d63c4a0650d84229c67505955c798.png" xmlns="">0Lvq_OwM-T0Wcmtu4KVFPQg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

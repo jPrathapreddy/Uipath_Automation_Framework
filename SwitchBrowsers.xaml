@@ -1,0 +1,175 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="SwitchBrowsers" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="854,1352" sap2010:WorkflowViewState.IdRef="SwitchBrowsers_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="642,1287.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_7">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="Str_Browser">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">chrome</Literal>
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="Str_ProductName">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">Bhawna</Literal>
+        </Variable.Default>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Shop Online for Men, Women &amp; Kids Clothing, Shoes, Home Decor Items" sap:VirtualizedContainerService.HintSize="580,1176.6666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="24f5b506-0586-44dc-999c-ab036ba874ed" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="546,1009.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'ONDC'" sap:VirtualizedContainerService.HintSize="484,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="24f5b506-0586-44dc-999c-ab036ba874ed" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.snapdeal.com/" DesignTimeRectangle="410, 361, 210, 74" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'ONDC'" FullSelectorArgument="&lt;webctrl aaname='ONDC' parentid='content_wrapper' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='ONDC' parentid='content_wrapper' tag='DIV' type='' class='banner-item active' check:innerText='ONDC' /&gt;" Guid="d2d36724-80e6-409c-8545-09ef8ff655ae" ImageBase64="" InformativeScreenshot="48e7d368123ec11e12d039e24a5bb1d1.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shop Online for Men, Women &amp;amp; Kids Clothing, Shoes, Home Decor Items' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Bhawna Collection'" sap:VirtualizedContainerService.HintSize="484,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="24f5b506-0586-44dc-999c-ab036ba874ed" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.snapdeal.com/" DesignTimeRectangle="11, -195, 1895, 4049" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Bhawna Collection'" FullSelectorArgument="[string.Format(&quot;&lt;webctrl aaname='{0}*' /&gt;&quot;, Str_ProductName)]" FuzzySelectorArgument="&lt;webctrl aaname='Bhawna Collection Loard Shiv Trishul Damru Locket With Puchmukhi*' class='product_name' parentid='content_wrapper' tag='DIV' type='' check:innerText='Bhawna Collection Loard Shiv Trishul Damru Locket With Puchmukhi Rudraksha Mala Gold-plated Brass,' /&gt;" Guid="c0ea347a-4c8c-4ca2-bee7-a066af5ecbe7" ImageBase64="" InformativeScreenshot="53bae6edb7e3a3e2cbd7a43ae31c8d92.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Shop Online for Men, Women &amp;amp; Kids Clothing, Shoes, Home Decor Items' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Buy Stay Healthy - Foot Protector (Free Size) Online at Best Price in India - Sn" sap:VirtualizedContainerService.HintSize="484,494.6666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" ScopeGuid="3f247494-bd6f-47b9-8e36-3c937c0dee42" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,275.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'ADD TO CART'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3f247494-bd6f-47b9-8e36-3c937c0dee42" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.snapdeal.com/product/stay-healthy-silicone-heel-protector/682622706581" CvElementArea="1173, 907, 254, 80" CvTextArea="1222, 936, 153, 24" CvTextArgument="ADD TO CART" CvType="Button" DesignTimeRectangle="1227, 933, 149, 31" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'ADD TO CART'" FullSelectorArgument="&lt;webctrl parentid='add-cart-button-id' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='add-cart-button-id' tag='SPAN' type='' class='' aaname='ADD TO CART' check:innerText='ADD TO CART' /&gt;" Guid="85e208ee-9c23-448e-afb0-c57632b2b63c" InformativeScreenshot="7ef17cca1726fda28e5e2ce3d0024e70.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Buy Stay Healthy - Foot Protector (Free Size) Online at Best Price in India - Snapdeal' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAKvSURBVFhHxZdfaNNQFMYzUVFB8Q9DxGd9VgTfFdZuuoE6qvNN3/zLBJm6wUAYgi97UVHUiSAKgj6IKDqwIHtR1BcFUd82bNKlaUnatevWLD3ek51saXOalLU2H/zKaM79ztebu+ReCQDaHFJSbKMiRftlKRoXJGUpYiakCDQCeix6RePojT3cPZcCiMIOUaRxJs0Ee2CvigDU3OIG/A+wlxNCwilpxS+vBntibwnvC1fQCrC3JJLEuYutAHuLABGVu8ihdQ2BMfgokNSBAXZ8NSJAEgME/qtpHddgevdp0KKDYt0EqzxfguSuU6yXG+wtcReqmf/yG4rvv9p/F998pjb+mn39yePDERhA3XeeLAHS3cP2TJRLJn3jL5w5ztNNYID82DuyAyj9+QuJNV2QG31J3/ir9HMSEqs7WV8H3wDy5qNgFYpktyjj8n1IrO8G4+oYZEeeLVEc/0YVldIv3GG9HXwD6P13yWZZlpEHpT3mqVW29YKlz1DVsqxMFuStvZ56B98ApV9TZFOp/IO3bL1+6R5VVGrm9iu2HqkZIHVwgIZ7VbYsUPec8Y4T64MLXTYXQNnR560X1Aww+2KChvOa+/idHafsPAmZEzcg01eJvOkIW88GwLSYOki5m89B6xyqC3lDj6cPwgZI9wxTi+ZoIS0W4pZjnj4IfwvWHQZzcpqGNyZcLzgDbB9BzTWQiY2QRWPKXn/C+jvUDIDMTfwgm5XJfn+sirLeDr4B1L1n7Slcicwp1X44cb5ufAMg7ndBvcLXsbr/IutXTWAAZftxsHIFsq5P+rlbrBdHXRsS48pDsg5W4ekH1oPD3pDUtSVbewjyj8ftp58fWFPrgcNBW7KQN6Whb8tDP5iIdRPu0Qw/XCHCOZw64JTgfRFF4ngeUQVNOp6jF3c8h7Z/i3l/U3LzwOoAAAAASUVORK5CYII=" InformativeScreenshot="2b8c03293ed1d082b3f7e577f9005499.jpg" Selector="[string.Format(&quot;&lt;html app='{0}.exe' title='Buy Stay Healthy - Foot Protector (Free Size) Online at Best Price in India - Snapdeal' /&gt;&quot;, Str_Browser)]" Title="Buy Stay Healthy - Foot Protector (Free Size) Online at Best Price in India - Snapdeal" Url="https://www.snapdeal.com/product/*" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAKvSURBVFhHxZdfaNNQFMYzUVFB8Q9DxGd9VgTfFdZuuoE6qvNN3/zLBJm6wUAYgi97UVHUiSAKgj6IKDqwIHtR1BcFUd82bNKlaUnatevWLD3ek51saXOalLU2H/zKaM79ztebu+ReCQDaHFJSbKMiRftlKRoXJGUpYiakCDQCeix6RePojT3cPZcCiMIOUaRxJs0Ee2CvigDU3OIG/A+wlxNCwilpxS+vBntibwnvC1fQCrC3JJLEuYutAHuLABGVu8ihdQ2BMfgokNSBAXZ8NSJAEgME/qtpHddgevdp0KKDYt0EqzxfguSuU6yXG+wtcReqmf/yG4rvv9p/F998pjb+mn39yePDERhA3XeeLAHS3cP2TJRLJn3jL5w5ztNNYID82DuyAyj9+QuJNV2QG31J3/ir9HMSEqs7WV8H3wDy5qNgFYpktyjj8n1IrO8G4+oYZEeeLVEc/0YVldIv3GG9HXwD6P13yWZZlpEHpT3mqVW29YKlz1DVsqxMFuStvZ56B98ApV9TZFOp/IO3bL1+6R5VVGrm9iu2HqkZIHVwgIZ7VbYsUPec8Y4T64MLXTYXQNnR560X1Aww+2KChvOa+/idHafsPAmZEzcg01eJvOkIW88GwLSYOki5m89B6xyqC3lDj6cPwgZI9wxTi+ZoIS0W4pZjnj4IfwvWHQZzcpqGNyZcLzgDbB9BzTWQiY2QRWPKXn/C+jvUDIDMTfwgm5XJfn+sirLeDr4B1L1n7Slcicwp1X44cb5ufAMg7ndBvcLXsbr/IutXTWAAZftxsHIFsq5P+rlbrBdHXRsS48pDsg5W4ekH1oPD3pDUtSVbewjyj8ftp58fWFPrgcNBW7KQN6Whb8tDP5iIdRPu0Qw/XCHCOZw64JTgfRFF4ngeUQVNOp6jF3c8h7Z/i3l/U3LzwOoAAAAASUVORK5CYII=" InformativeScreenshot="31b994a40cabccff6f21257f044da67a.jpg" Selector="[string.Format(&quot;&lt;html app='{0}.exe' title='Shop Online for Men, Women &amp;amp; Kids Clothing, Shoes, Home Decor Items' /&gt;&quot;, Str_Browser)]" Title="Shop Online for Men, Women &amp; Kids Clothing, Shoes, Home Decor Items" Url="https://www.snapdeal.com/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

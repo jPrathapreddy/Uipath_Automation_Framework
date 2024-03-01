@@ -17,7 +17,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.12.0.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.1",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -75,12 +75,31 @@
         "fileName": "Practice.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "42ee88bf-ab02-482c-b5a6-5eb0d66915d9",
         "dataVariationFilePath": ".variations\\NewRegistrationPetstore_ TestData_Sheet1.json",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "TestCase1.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d8977c9a-1745-43f0-af09-3f5566a4fdce",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC_Myntra.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "947fb2b8-a971-4190-9b84-616c9e5c11c6",
+        "testCaseType": "TestCase",
+        "fileName": "Selecting_Date.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "4fef12af-5222-410a-a48c-9ce809dea270",
+        "testCaseType": "TestCase",
+        "fileName": "Select_Checkboxes.xaml"
       }
     ],
     "saveToCloud": false
